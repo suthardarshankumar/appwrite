@@ -1,7 +1,8 @@
 const App = () => {
+  console.log(import.meta.env.VITE_APPWRITE_URL)
   return (
     <>
-
+      <h1>Hello World</h1>
     </>
   )
 }
